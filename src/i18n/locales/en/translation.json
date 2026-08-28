@@ -1,0 +1,180 @@
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "reservation": "Reservation",
+    "contact": "Contact"
+  },
+  "home": {
+    "welcome": "Welcome to Avalon Cafe",
+    "tagline": "Aussie vibes, seaside sips & all-day brunch, right on Port de Badalona.",
+    "reserveCta": "Reserve a Table",
+    "menuCta": "View Menu"
+  },
+  "about": {
+    "title": "About Us",
+    "text": "Avalon Cafe is a cozy, Australian-style brunch spot on the seafront in Badalona. We serve specialty coffee, fresh juices, and all-day brunch in a relaxed, friendly space — perfect for a slow morning or a catch-up with friends."
+  },
+  "menu": {
+    "brunchYourWay": {
+      "title": "Brunch Your Way",
+      "items": [
+        { "name": "Eggs on Toast (scrambled, fried or poached)", "price": "7€" }
+      ],
+      "addOnLabel": "Add On:",
+      "addOns": [
+        { "name": "Mushrooms", "price": "1.5€" },
+        { "name": "Homemade baked beans", "price": "1.5€" },
+        { "name": "Sausage", "price": "2€" },
+        { "name": "Bacon", "price": "2€" },
+        { "name": "Cashew pesto (Vegan)", "price": "1.5€" },
+        { "name": "Avocado", "price": "2€" },
+        { "name": "Cooked cherry tomatoes", "price": "1.5€" }
+      ]
+    },
+    "brunch": {
+      "title": "Brunch",
+      "items": [
+        { "name": "Fried Thai Chicken Omelette", "description": "Marinated Thai style fried chicken served with egg omelette & a side salad of pickled carrots, onions & fresh sprouts and cilantro.", "price": "15€" },
+        { "name": "BLAT", "description": "Bacon, lettuce, avocado, tomato & lemon mayonaise", "price": "10€" },
+        { "name": "Mushrooms on Toast", "description": "Mixed mushrooms, cooked in nut butter & lemon thyme with cooked cherry tomatoes, balsamic glaze & toasted walnuts (Vegan)", "price": "12€" },
+        { "name": "Avo Toast", "description": "Fresh avocado, pickled onions & mixed nut crunch, +add poached eggs (2€)", "price": "10€" },
+        { "name": "Super Breaky Roll", "description": "Bacon, 2 egg omlette, cheddar cheese, sausage patty & homemade tomato relish served on a fresh roll", "price": "10€" },
+        { "name": "Pancake Stack", "description": "Stack of pancakes served with fresh seasonal fruits, coconut & marscapone", "price": "10€" },
+        { "name": "The Spanglish", "description": "2 fried eggs, local sausage, bacon, homemade baked beans & baked cherry tomatoes served on toast.", "price": "15€" },
+        { "name": "Chia Bowl", "description": "Lemongrass & kaffir lime coconut milk infused chia seed bowl served with toasted coconut, roasted peanuts, mango, blueberries & lime (Vegan)", "price": "10€" },
+        { "name": "Super Healthy Bowl", "description": "Frozen banana, mixed frozen berries, coconut milk served with seasonal fresh fruits & puffed quinoa (Vegan)", "price": "10€" }
+      ]
+    },
+    "sandwiches": {
+      "title": "Sandwiches",
+      "items": [
+        { "name": "Pulled Beef", "description": "Slow cooked beef ribs with pickled peppers, caramelised onions, mozzarella cheese served with beef consume for dipping & homemade french fries", "price": "14€" },
+        { "name": "Mortadella Focaccia", "description": "Mortadella, homemade cashew pesto, fresh ricotta cheese, rocket & pickled onions on fresh coca bread.", "price": "12€" },
+        { "name": "Avalon Beef Burger", "description": "180g beef patty, red onion, cheddar cheese, homemade tomato relish & burger sauce served with homemade french fries", "price": "14€" },
+        { "name": "Fried Chicken Sandwich", "description": "Fried chicken & traditional coleslaw salad served with homemade french fries", "price": "14€" },
+        { "name": "The Veggie", "description": "Locally sourced tomatoes, pickled onions, rocket & vegan cashew pesto served with homemade french fries (Vegan)", "price": "12€" }
+      ]
+    },
+    "hotDrinks": {
+      "title": "Classic Hot Drinks",
+      "items": [
+        { "name": "Espresso", "price": "1.4€" },
+        { "name": "Macchiatto", "price": "1.8€" },
+        { "name": "Latte", "price": "2.2€" },
+        { "name": "Americano", "price": "1.4€" },
+        { "name": "Cappuccino", "price": "2.4€" },
+        { "name": "Flat White", "price": "3€" },
+        { "name": "Iced Coffee", "price": "4€" },
+        { "name": "Chai Latte", "price": "4€" },
+        { "name": "Tea Selection", "price": "2€" },
+        { "name": "+ Oat Milk", "price": "0.2€" },
+        { "name": "+ Extra Shot", "price": "1€" }
+      ]
+    },
+    "refreshments": {
+      "title": "Refreshments",
+      "items": [
+        { "name": "Still or Sparkling Water", "price": "2€" },
+        { "name": "Fresh Orange Juice", "price": "4€" },
+        { "name": "Homemade Lemonade", "price": "3.5€" },
+        { "name": "Homemade Sparkling Peach", "price": "3.5€" },
+        { "name": "Caravelle Selection", "price": "3€" },
+        { "name": "Amstel Beer", "price": "2.2€ / 2.8€ / 4.5€" },
+        { "name": "18/70 Beer", "price": "2.5€ / 3.5€ / 6€" },
+        { "name": "Lagunitas Beer", "price": "4€ / 6€" },
+        { "name": "Sol Beer", "price": "3.8€" },
+        { "name": "Amstel 0.0%", "price": "3.5€" },
+        { "name": "Desperados Bottle", "price": "4€" },
+        { "name": "Michelada with Sol", "price": "5.5€" },
+        { "name": "Michelada with Draft", "price": "5€" }
+      ]
+    },
+    "wine": {
+      "title": "Natural Wine Selection",
+      "categories": [
+        { "title": "Whites", "items": [
+          { "name": "Menganito - D.O. Rueda '24", "price": "3.5€ / 18€" },
+          { "name": "Celler Credo And the Winner is... blanco '23", "price": "3.5€ / 18€" },
+          { "name": "Kiwi Trail Sauvignon Blanc", "price": "3€ / 16€" }
+        ]},
+        { "title": "Rose", "items": [
+          { "name": "Zutanita - Côtes de Provence '23", "price": "4€ / 22€" }
+        ]},
+        { "title": "Red", "items": [
+          { "name": "Fulanito - D.O. Ribera del Duero '24", "price": "3.75€ / 18€" },
+          { "name": "Kármán tinto '23", "price": "3.5€ / 18€" }
+        ]},
+        { "title": "Sparkling", "items": [
+          { "name": "Els Vinyerons Pregadéu Ancestral '22", "price": "3.75€ / 20€" },
+          { "name": "Mas Candí SEGUNYOLA Brut Nature '19", "price": "4.2€ / 26€" }
+        ]},
+        { "title": "Vermut", "items": [
+          { "name": "Barbadillo Vermut Atamán - 50cl", "price": "3.5€" }
+        ]}
+      ]
+    }
+  },
+  "gallery": {
+    "title": "Gallery"
+  },
+  "reservation": {
+    "title": "Reserve a Table",
+    "subtitle": "Book a table for up to 8 guests. We're open Wednesday–Sunday, 9:00–16:00.",
+    "selectDate": "Select a Date",
+    "time": "Time",
+    "selectTime": "Select a time",
+    "guests": "Number of Guests",
+    "guestsCount_one": "{{count}} guest",
+    "guestsCount_other": "{{count}} guests",
+    "seating": "Seating",
+    "indoor": "Indoor",
+    "outdoor": "Outdoor",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "notes": "Notes",
+    "notesOptional": "(optional)",
+    "submit": "Request Reservation",
+    "confirmationTitle": "Reservation Requested!",
+    "confirmationMessage": "Thanks, {{name}}! We've noted your request for {{date}} at {{time}} for {{guests}} ({{seating}} seating). We'll confirm by phone or email shortly.",
+    "newReservation": "Make Another Reservation"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Interested in catering, hosting an event, or just want to reach out? Let us know below.",
+    "tabs": {
+      "catering": "Catering",
+      "event": "Event",
+      "other": "Other"
+    },
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "selectDate": "Select a Date",
+    "time": "Time",
+    "placeholders": {
+      "catering": "Tell us about your catering needs — number of guests, occasion, dietary requirements...",
+      "event": "Tell us about the event you'd like to host — guest count, theme, any special requests...",
+      "other": "How can we help?"
+    },
+    "submit": {
+      "catering": "Send Catering Inquiry",
+      "event": "Send Event Inquiry",
+      "other": "Send Message"
+    },
+    "sending": "Sending...",
+    "error": "Something went wrong — please try again or call us directly.",
+    "confirmationTitle": "Message Sent!",
+    "confirmationMessage": "Thanks for reaching out — we'll get back to you soon.",
+    "close": "Close"
+  },
+  "footer": {
+    "hours": "Opening Hours",
+    "openDays": "Wed – Sun",
+    "closedDays": "Mon – Tue",
+    "closed": "Closed",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved."
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "nav": {
+    "home": "Inici",
+    "menu": "Menú",
+    "reservation": "Reserva",
+    "contact": "Contacte"
+  },
+  "home": {
+    "welcome": "Benvinguts a Avalon Cafe",
+    "tagline": "Ambient australià, sabors de mar i brunch tot el dia, al Port de Badalona.",
+    "reserveCta": "Reservar Taula",
+    "menuCta": "Veure Menú"
+  },
+  "about": {
+    "title": "Sobre Nosaltres",
+    "text": "Avalon Cafe és un espai acollidor d'estil australià per fer brunch, just davant del mar a Badalona. Servim cafè de especialitat, sucs naturals i brunch tot el dia en un ambient relaxat i proper — ideal per a un matí tranquil o per quedar amb amics."
+  },
+  "menu": {
+    "brunchYourWay": {
+      "title": "Brunch a la teva Manera",
+      "items": [
+        { "name": "Ous sobre Torrada (remenats, fregits o escalfats)", "price": "7€" }
+      ],
+      "addOnLabel": "Extres:",
+      "addOns": [
+        { "name": "Bolets", "price": "1.5€" },
+        { "name": "Mongetes al forn casolanes", "price": "1.5€" },
+        { "name": "Salsitxa", "price": "2€" },
+        { "name": "Bacon", "price": "2€" },
+        { "name": "Pesto d'anacards (Vegà)", "price": "1.5€" },
+        { "name": "Alvocat", "price": "2€" },
+        { "name": "Tomàquets cherry cuits", "price": "1.5€" }
+      ]
+    },
+    "brunch": {
+      "title": "Brunch",
+      "items": [
+        { "name": "Truita de Pollastre Fregit Estil Tailandès", "description": "Pollastre fregit marinat a l'estil tailandès servit amb truita francesa i una amanida de pastanaga en escabetx, ceba, brots frescos i coriandre.", "price": "15€" },
+        { "name": "BLAT", "description": "Bacon, enciam, alvocat, tomàquet i maionesa de llimona", "price": "10€" },
+        { "name": "Bolets sobre Torrada", "description": "Bolets variats cuinats amb mantega de fruits secs i farigola llimonera, amb tomàquets cherry cuits, glacejat balsàmic i nous torrades (Vegà)", "price": "12€" },
+        { "name": "Torrada d'Alvocat", "description": "Alvocat fresc, ceba en escabetx i cruixent de fruits secs, +afegeix ous escalfats (2€)", "price": "10€" },
+        { "name": "Súper Entrepà d'Esmorzar", "description": "Bacon, truita de 2 ous, formatge cheddar, hamburguesa de salsitxa i relish de tomàquet casolà servit en pa fresc", "price": "10€" },
+        { "name": "Torre de Crepes", "description": "Torre de crepes servida amb fruites fresques de temporada, coco i mascarpone", "price": "10€" },
+        { "name": "The Spanglish", "description": "2 ous fregits, salsitxa local, bacon, mongetes al forn casolanes i tomàquets cherry al forn servits sobre torrada.", "price": "15€" },
+        { "name": "Bowl de Xia", "description": "Bowl de llavors de xia amb llet de coco, citronel·la i llima kaffir, servit amb coco torrat, cacauets torrats, mango, nabius i llima (Vegà)", "price": "10€" },
+        { "name": "Bowl Súper Saludable", "description": "Plàtan congelat, barreja de baies congelades, llet de coco servit amb fruites fresques de temporada i quinoa inflada (Vegà)", "price": "10€" }
+      ]
+    },
+    "sandwiches": {
+      "title": "Entrepans",
+      "items": [
+        { "name": "Vedella Desfilada", "description": "Costelles de vedella cuinades a foc lent amb pebrots en escabetx, ceba caramel·litzada, formatge mozzarella, servit amb consomé de vedella per sucar i patates fregides casolanes", "price": "14€" },
+        { "name": "Focaccia de Mortadel·la", "description": "Mortadel·la, pesto d'anacards casolà, formatge ricotta fresc, rúcula i ceba en escabetx sobre coca fresca.", "price": "12€" },
+        { "name": "Hamburguesa Avalon", "description": "Hamburguesa de 180g de vedella, ceba vermella, formatge cheddar, relish de tomàquet casolà i salsa burger servida amb patates fregides casolanes", "price": "14€" },
+        { "name": "Entrepà de Pollastre Fregit", "description": "Pollastre fregit i amanida coleslaw tradicional servit amb patates fregides casolanes", "price": "14€" },
+        { "name": "The Veggie", "description": "Tomàquets d'origen local, ceba en escabetx, rúcula i pesto vegà d'anacards servit amb patates fregides casolanes (Vegà)", "price": "12€" }
+      ]
+    },
+    "hotDrinks": {
+      "title": "Begudes Calentes Clàssiques",
+      "items": [
+        { "name": "Espresso", "price": "1.4€" },
+        { "name": "Macchiato", "price": "1.8€" },
+        { "name": "Latte", "price": "2.2€" },
+        { "name": "Americano", "price": "1.4€" },
+        { "name": "Capuccino", "price": "2.4€" },
+        { "name": "Flat White", "price": "3€" },
+        { "name": "Cafè Gelat", "price": "4€" },
+        { "name": "Chai Latte", "price": "4€" },
+        { "name": "Selecció de Tes", "price": "2€" },
+        { "name": "+ Llet de Civada", "price": "0.2€" },
+        { "name": "+ Shot Extra", "price": "1€" }
+      ]
+    },
+    "refreshments": {
+      "title": "Refrescos",
+      "items": [
+        { "name": "Aigua amb o sense Gas", "price": "2€" },
+        { "name": "Suc de Taronja Natural", "price": "4€" },
+        { "name": "Llimonada Casolana", "price": "3.5€" },
+        { "name": "Préssec Escumós Casolà", "price": "3.5€" },
+        { "name": "Selecció Caravelle", "price": "3€" },
+        { "name": "Cervesa Amstel", "price": "2.2€ / 2.8€ / 4.5€" },
+        { "name": "Cervesa 18/70", "price": "2.5€ / 3.5€ / 6€" },
+        { "name": "Cervesa Lagunitas", "price": "4€ / 6€" },
+        { "name": "Cervesa Sol", "price": "3.8€" },
+        { "name": "Amstel 0.0%", "price": "3.5€" },
+        { "name": "Ampolla Desperados", "price": "4€" },
+        { "name": "Michelada amb Sol", "price": "5.5€" },
+        { "name": "Michelada amb Cervesa de Barril", "price": "5€" }
+      ]
+    },
+    "wine": {
+      "title": "Selecció de Vins Naturals",
+      "categories": [
+        { "title": "Blancs", "items": [
+          { "name": "Menganito - D.O. Rueda '24", "price": "3.5€ / 18€" },
+          { "name": "Celler Credo And the Winner is... blanco '23", "price": "3.5€ / 18€" },
+          { "name": "Kiwi Trail Sauvignon Blanc", "price": "3€ / 16€" }
+        ]},
+        { "title": "Rosat", "items": [
+          { "name": "Zutanita - Côtes de Provence '23", "price": "4€ / 22€" }
+        ]},
+        { "title": "Negre", "items": [
+          { "name": "Fulanito - D.O. Ribera del Duero '24", "price": "3.75€ / 18€" },
+          { "name": "Kármán tinto '23", "price": "3.5€ / 18€" }
+        ]},
+        { "title": "Escumós", "items": [
+          { "name": "Els Vinyerons Pregadéu Ancestral '22", "price": "3.75€ / 20€" },
+          { "name": "Mas Candí SEGUNYOLA Brut Nature '19", "price": "4.2€ / 26€" }
+        ]},
+        { "title": "Vermut", "items": [
+          { "name": "Barbadillo Vermut Atamán - 50cl", "price": "3.5€" }
+        ]}
+      ]
+    }
+  },
+  "gallery": {
+    "title": "Galeria"
+  },
+  "reservation": {
+    "title": "Reservar una Taula",
+    "subtitle": "Reserva una taula per a fins a 8 persones. Obrim de dimecres a diumenge, de 9:00 a 16:00.",
+    "selectDate": "Selecciona una Data",
+    "time": "Hora",
+    "selectTime": "Selecciona una hora",
+    "guests": "Nombre de Comensals",
+    "guestsCount_one": "{{count}} persona",
+    "guestsCount_other": "{{count}} persones",
+    "seating": "Ubicació",
+    "indoor": "Interior",
+    "outdoor": "Terrassa",
+    "name": "Nom",
+    "email": "Correu electrònic",
+    "phone": "Telèfon",
+    "notes": "Notes",
+    "notesOptional": "(opcional)",
+    "submit": "Sol·licitar Reserva",
+    "confirmationTitle": "Reserva Sol·licitada!",
+    "confirmationMessage": "Gràcies, {{name}}! Hem anotat la teva sol·licitud per al {{date}} a les {{time}} per a {{guests}} ({{seating}}). Et confirmarem per telèfon o correu electrònic aviat.",
+    "newReservation": "Fer una Altra Reserva"
+  },
+  "contact": {
+    "title": "Contacte",
+    "subtitle": "Estàs interessat en càtering, organitzar un esdeveniment o simplement vols escriure'ns? Digues-nos.",
+    "tabs": {
+      "catering": "Càtering",
+      "event": "Esdeveniment",
+      "other": "Altres"
+    },
+    "name": "Nom",
+    "email": "Correu electrònic",
+    "message": "Missatge",
+    "selectDate": "Selecciona una Data",
+    "time": "Hora",
+    "placeholders": {
+      "catering": "Explica'ns les teves necessitats de càtering: nombre de convidats, ocasió, requisits dietètics...",
+      "event": "Explica'ns l'esdeveniment que t'agradaria organitzar: nombre de convidats, temàtica, alguna petició especial...",
+      "other": "Com podem ajudar-te?"
+    },
+    "submit": {
+      "catering": "Enviar Consulta de Càtering",
+      "event": "Enviar Consulta d'Esdeveniment",
+      "other": "Enviar Missatge"
+    },
+    "sending": "Enviant...",
+    "error": "Alguna cosa ha fallat. Torna-ho a provar o truca'ns directament.",
+    "confirmationTitle": "Missatge Enviat!",
+    "confirmationMessage": "Gràcies per escriure'ns, et respondrem aviat.",
+    "close": "Tancar"
+  },
+  "footer": {
+    "hours": "Horari",
+    "openDays": "Dc – Dg",
+    "closedDays": "Dl – Dt",
+    "closed": "Tancat",
+    "followUs": "Segueix-nos",
+    "rights": "Tots els drets reservats."
+  }
+}

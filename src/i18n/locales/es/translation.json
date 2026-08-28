@@ -1,0 +1,180 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "menu": "Menú",
+    "reservation": "Reserva",
+    "contact": "Contacto"
+  },
+  "home": {
+    "welcome": "Bienvenidos a Avalon Cafe",
+    "tagline": "Ambiente australiano, sabores de mar y brunch todo el día, frente al Port de Badalona.",
+    "reserveCta": "Reservar Mesa",
+    "menuCta": "Ver Menú"
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "text": "Avalon Cafe es un acogedor espacio de brunch de estilo australiano frente al mar en Badalona. Servimos café de especialidad, zumos naturales y brunch durante todo el día en un ambiente relajado y cercano — ideal para una mañana tranquila o para quedar con amigos."
+  },
+  "menu": {
+    "brunchYourWay": {
+      "title": "Brunch a tu Manera",
+      "items": [
+        { "name": "Huevos sobre Tostada (revueltos, fritos o escalfados)", "price": "7€" }
+      ],
+      "addOnLabel": "Extras:",
+      "addOns": [
+        { "name": "Champiñones", "price": "1.5€" },
+        { "name": "Alubias horneadas caseras", "price": "1.5€" },
+        { "name": "Salchicha", "price": "2€" },
+        { "name": "Bacon", "price": "2€" },
+        { "name": "Pesto de anacardos (Vegano)", "price": "1.5€" },
+        { "name": "Aguacate", "price": "2€" },
+        { "name": "Tomates cherry cocinados", "price": "1.5€" }
+      ]
+    },
+    "brunch": {
+      "title": "Brunch",
+      "items": [
+        { "name": "Tortilla de Pollo Frito Estilo Tailandés", "description": "Pollo frito marinado al estilo tailandés servido con tortilla francesa y una ensalada de zanahoria encurtida, cebolla, brotes frescos y cilantro.", "price": "15€" },
+        { "name": "BLAT", "description": "Bacon, lechuga, aguacate, tomate y mayonesa de limón", "price": "10€" },
+        { "name": "Champiñones sobre Tostada", "description": "Champiñones variados cocinados en mantequilla de frutos secos y tomillo limón, con tomates cherry cocinados, glaseado balsámico y nueces tostadas (Vegano)", "price": "12€" },
+        { "name": "Tostada de Aguacate", "description": "Aguacate fresco, cebolla encurtida y crujiente de frutos secos, +añade huevos escalfados (2€)", "price": "10€" },
+        { "name": "Súper Bocadillo de Desayuno", "description": "Bacon, tortilla de 2 huevos, queso cheddar, hamburguesa de salchicha y relish de tomate casero servido en pan fresco", "price": "10€" },
+        { "name": "Torre de Tortitas", "description": "Torre de tortitas servida con frutas frescas de temporada, coco y mascarpone", "price": "10€" },
+        { "name": "The Spanglish", "description": "2 huevos fritos, salchicha local, bacon, alubias horneadas caseras y tomates cherry al horno servidos sobre tostada.", "price": "15€" },
+        { "name": "Bowl de Chía", "description": "Bowl de semillas de chía infusionado con leche de coco, hierba limón y lima kaffir, servido con coco tostado, cacahuetes tostados, mango, arándanos y lima (Vegano)", "price": "10€" },
+        { "name": "Bowl Súper Saludable", "description": "Plátano congelado, mezcla de bayas congeladas, leche de coco servido con frutas frescas de temporada y quinoa inflada (Vegano)", "price": "10€" }
+      ]
+    },
+    "sandwiches": {
+      "title": "Sándwiches",
+      "items": [
+        { "name": "Ternera Desmechada", "description": "Costillas de ternera cocinadas a fuego lento con pimientos encurtidos, cebolla caramelizada, queso mozzarella, servido con consomé de ternera para mojar y patatas fritas caseras", "price": "14€" },
+        { "name": "Focaccia de Mortadela", "description": "Mortadela, pesto de anacardos casero, queso ricotta fresco, rúcula y cebolla encurtida sobre coca fresca.", "price": "12€" },
+        { "name": "Hamburguesa Avalon", "description": "Hamburguesa de 180g de ternera, cebolla roja, queso cheddar, relish de tomate casero y salsa burger servida con patatas fritas caseras", "price": "14€" },
+        { "name": "Sándwich de Pollo Frito", "description": "Pollo frito y ensalada coleslaw tradicional servido con patatas fritas caseras", "price": "14€" },
+        { "name": "The Veggie", "description": "Tomates de origen local, cebolla encurtida, rúcula y pesto vegano de anacardos servido con patatas fritas caseras (Vegano)", "price": "12€" }
+      ]
+    },
+    "hotDrinks": {
+      "title": "Bebidas Calientes Clásicas",
+      "items": [
+        { "name": "Espresso", "price": "1.4€" },
+        { "name": "Macchiato", "price": "1.8€" },
+        { "name": "Latte", "price": "2.2€" },
+        { "name": "Americano", "price": "1.4€" },
+        { "name": "Capuchino", "price": "2.4€" },
+        { "name": "Flat White", "price": "3€" },
+        { "name": "Café con Hielo", "price": "4€" },
+        { "name": "Chai Latte", "price": "4€" },
+        { "name": "Selección de Tés", "price": "2€" },
+        { "name": "+ Leche de Avena", "price": "0.2€" },
+        { "name": "+ Shot Extra", "price": "1€" }
+      ]
+    },
+    "refreshments": {
+      "title": "Refrescos",
+      "items": [
+        { "name": "Agua con o sin Gas", "price": "2€" },
+        { "name": "Zumo de Naranja Natural", "price": "4€" },
+        { "name": "Limonada Casera", "price": "3.5€" },
+        { "name": "Melocotón Espumoso Casero", "price": "3.5€" },
+        { "name": "Selección Caravelle", "price": "3€" },
+        { "name": "Cerveza Amstel", "price": "2.2€ / 2.8€ / 4.5€" },
+        { "name": "Cerveza 18/70", "price": "2.5€ / 3.5€ / 6€" },
+        { "name": "Cerveza Lagunitas", "price": "4€ / 6€" },
+        { "name": "Cerveza Sol", "price": "3.8€" },
+        { "name": "Amstel 0.0%", "price": "3.5€" },
+        { "name": "Botella Desperados", "price": "4€" },
+        { "name": "Michelada con Sol", "price": "5.5€" },
+        { "name": "Michelada con Cerveza de Barril", "price": "5€" }
+      ]
+    },
+    "wine": {
+      "title": "Selección de Vinos Naturales",
+      "categories": [
+        { "title": "Blancos", "items": [
+          { "name": "Menganito - D.O. Rueda '24", "price": "3.5€ / 18€" },
+          { "name": "Celler Credo And the Winner is... blanco '23", "price": "3.5€ / 18€" },
+          { "name": "Kiwi Trail Sauvignon Blanc", "price": "3€ / 16€" }
+        ]},
+        { "title": "Rosado", "items": [
+          { "name": "Zutanita - Côtes de Provence '23", "price": "4€ / 22€" }
+        ]},
+        { "title": "Tinto", "items": [
+          { "name": "Fulanito - D.O. Ribera del Duero '24", "price": "3.75€ / 18€" },
+          { "name": "Kármán tinto '23", "price": "3.5€ / 18€" }
+        ]},
+        { "title": "Espumoso", "items": [
+          { "name": "Els Vinyerons Pregadéu Ancestral '22", "price": "3.75€ / 20€" },
+          { "name": "Mas Candí SEGUNYOLA Brut Nature '19", "price": "4.2€ / 26€" }
+        ]},
+        { "title": "Vermut", "items": [
+          { "name": "Barbadillo Vermut Atamán - 50cl", "price": "3.5€" }
+        ]}
+      ]
+    }
+  },
+  "gallery": {
+    "title": "Galería"
+  },
+  "reservation": {
+    "title": "Reservar una Mesa",
+    "subtitle": "Reserva una mesa para hasta 8 personas. Abrimos de miércoles a domingo, de 9:00 a 16:00.",
+    "selectDate": "Selecciona una Fecha",
+    "time": "Hora",
+    "selectTime": "Selecciona una hora",
+    "guests": "Número de Comensales",
+    "guestsCount_one": "{{count}} persona",
+    "guestsCount_other": "{{count}} personas",
+    "seating": "Ubicación",
+    "indoor": "Interior",
+    "outdoor": "Terraza",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "notes": "Notas",
+    "notesOptional": "(opcional)",
+    "submit": "Solicitar Reserva",
+    "confirmationTitle": "¡Reserva Solicitada!",
+    "confirmationMessage": "¡Gracias, {{name}}! Hemos anotado tu solicitud para el {{date}} a las {{time}} para {{guests}} ({{seating}}). Te confirmaremos por teléfono o correo electrónico en breve.",
+    "newReservation": "Hacer Otra Reserva"
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Interesado en catering, organizar un evento o simplemente quieres escribirnos? Cuéntanos.",
+    "tabs": {
+      "catering": "Catering",
+      "event": "Evento",
+      "other": "Otro"
+    },
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "selectDate": "Selecciona una Fecha",
+    "time": "Hora",
+    "placeholders": {
+      "catering": "Cuéntanos sobre tus necesidades de catering: número de invitados, ocasión, requisitos dietéticos...",
+      "event": "Cuéntanos sobre el evento que te gustaría organizar: número de invitados, temática, alguna petición especial...",
+      "other": "¿Cómo podemos ayudarte?"
+    },
+    "submit": {
+      "catering": "Enviar Consulta de Catering",
+      "event": "Enviar Consulta de Evento",
+      "other": "Enviar Mensaje"
+    },
+    "sending": "Enviando...",
+    "error": "Algo salió mal. Inténtalo de nuevo o llámanos directamente.",
+    "confirmationTitle": "¡Mensaje Enviado!",
+    "confirmationMessage": "Gracias por escribirnos, te responderemos pronto.",
+    "close": "Cerrar"
+  },
+  "footer": {
+    "hours": "Horario",
+    "openDays": "Mié – Dom",
+    "closedDays": "Lun – Mar",
+    "closed": "Cerrado",
+    "followUs": "Síguenos",
+    "rights": "Todos los derechos reservados."
+  }
+}

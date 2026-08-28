@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #6B6B1F;
+  --color-secondary: #F4C9BE;
+  --color-cream: #F3EED3;
+  --color-ink: #2B2B0F;
+  --color-teal: #7FA69C;
+
+  --font-display: "Lilita One", sans-serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "Space Mono", monospace;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+.rdp-root {
+  --rdp-accent-color: #6B6B1F;
+  --rdp-accent-background-color: #F4C9BE;
+  --rdp-today-color: #6B6B1F;
+}
+
+.rdp-caption_label {
+  text-transform: capitalize;
+}
