@@ -14,7 +14,7 @@ if (!rootElement) {
 ReactDOM.createRoot(rootElement).render(
   <React.StrictMode>
     <Suspense fallback={<div>Loading...</div>}>
-      <BrowserRouter>
+      <BrowserRouter basename="/Avalon_Cafe">
         <App />
       </BrowserRouter>
     </Suspense>
