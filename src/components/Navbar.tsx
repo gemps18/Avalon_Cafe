@@ -25,7 +25,7 @@ function Navbar() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <NavLink to="/" className="inline-flex items-center" onClick={() => setOpen(false)}>
-          <img src="/avalon-logo.png" alt="Avalon Cafe" className="h-10 w-auto" />
+          <img src={`${import.meta.env.BASE_URL}avalon-logo.png`} alt="Avalon Cafe" className="h-9 w-auto" />
         </NavLink>
 
         {/* Desktop nav */}

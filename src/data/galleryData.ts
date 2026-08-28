@@ -4,8 +4,8 @@ export interface GalleryImage {
 }
 
 export const galleryImages: GalleryImage[] = [
-  { src: "/gallery/1.jpg", alt: "Outdoor seating" },
-  { src: "/gallery/2.jpg", alt: "Latte art" },
-  { src: "/gallery/3.jpg", alt: "Brunch plate" },
-  { src: "/gallery/4.jpg", alt: "Cafe interior" },
+  { src: `${import.meta.env.BASE_URL}gallery/1.jpg`, alt: "Outdoor seating" },
+  { src: `${import.meta.env.BASE_URL}gallery/2.jpg`, alt: "Latte art" },
+  { src: `${import.meta.env.BASE_URL}gallery/3.jpg`, alt: "Brunch plate" },
+  { src: `${import.meta.env.BASE_URL}gallery/4.jpg`, alt: "Cafe interior" },
 ];

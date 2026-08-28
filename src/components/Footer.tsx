@@ -11,7 +11,7 @@ function Footer() {
         {/* About / Address */}
         <div>
           <div className="inline-flex items-center justify-center bg-cream rounded-full w-16 h-16 mb-4">
-            <img src="/avalon-logo.png" alt="Avalon Cafe" className="h-8 w-auto" />
+            <img src={`${import.meta.env.BASE_URL}avalon-logo.png`} alt="Avalon Cafe" className="h-9 w-auto block" />
           </div>
           <p className="flex items-start gap-2 text-sm text-cream/80">
             <MapPin size={18} className="mt-0.5 shrink-0" />
