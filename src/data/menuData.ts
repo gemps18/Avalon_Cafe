@@ -1,7 +1,7 @@
 export interface MenuItem {
   name: string;
   description?: string;
-  price: string;
+  price?: string;
 }
 
 export interface WineCategory {

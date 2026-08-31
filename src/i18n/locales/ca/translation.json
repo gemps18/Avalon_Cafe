@@ -16,6 +16,10 @@
     "text": "Avalon Cafe és un espai acollidor d'estil australià per fer brunch, just davant del mar a Badalona. Servim cafè de especialitat, sucs naturals i brunch tot el dia en un ambient relaxat i proper — ideal per a un matí tranquil o per quedar amb amics."
   },
   "menu": {
+    "tabs": {
+      "cafe": "Menú del Cafè",
+      "catering": "Menú de Càtering"
+    },
     "brunchYourWay": {
       "title": "Brunch a la teva Manera",
       "items": [
@@ -113,6 +117,102 @@
           { "name": "Barbadillo Vermut Atamán - 50cl", "price": "3.5€" }
         ]}
       ]
+    }
+  },
+  "catering": {
+    "intro": "Des d'un esmorzar lleuger fins a un festí de dinar, t'ho cobrim tot, menjar fet fresc cada dia. Amb una influència australiana fresca a la nostra cuina, ens centrem en menjars divertits, saludables i saborosos.",
+    "each": "cadascun",
+    "breakfastTreats": {
+      "title": "Delícies per Esmorzar",
+      "sections": [
+        {
+          "title": "English Muffins",
+          "price": "6€",
+          "items": [
+            { "name": "Bacon, ou, relish de tomàquet i rúcula" },
+            { "name": "Brie, tomàquet, pernil dolç i maionesa de Dijon" },
+            { "name": "Pollastre, maionesa i enciam" }
+          ]
+        },
+        {
+          "title": "Dolços",
+          "price": "4€",
+          "items": [
+            { "name": "Galetes amb xips de xocolata" },
+            { "name": "Croissant de gerd i mascarpone" },
+            { "name": "Barreta de caramel" },
+            { "name": "Brownie de xocolata" }
+          ]
+        },
+        {
+          "title": "Mini Baguette",
+          "price": "3€",
+          "items": [
+            { "name": "Bacon, enciam, tomàquet, maionesa" },
+            { "name": "Pollastre coronation" },
+            { "name": "Verdures rostides i brie" }
+          ]
+        },
+        {
+          "title": "Mini Bowl",
+          "price": "6€",
+          "items": [
+            { "name": "Bowl de xia amb llet de coco, fruita fresca i fruits secs" },
+            { "name": "Iogurt i granola" },
+            { "name": "Amanida de fruita fresca amb ricotta muntada dolça" }
+          ]
+        }
+      ]
+    },
+    "salads": {
+      "title": "Amanides",
+      "subtitle": "Servides individualment o en safates per compartir per a 8 persones",
+      "trayNote": "Safates d'amanida: 26€ (aprox. 8 porcions tipus guarnició)",
+      "items": [
+        { "name": "Cèsar de Pollastre", "description": "Pollastre rostit, parmesà, enciam, bacon, ou i amaniment Cèsar", "price": "10€" },
+        { "name": "Cereals Mixtos i Herbes (Vegetariana)", "description": "Arròs salvatge, quinoa, menta i julivert, cogombre, moniato rostit i ceba amb amaniment de mel i mostassa", "price": "10€" },
+        { "name": "Fideus Asiàtics amb Vedella", "description": "Fideus d'arròs, brots de soja, cogombre, tomàquets cherry, pastanagues, col i entrecot a la planxa amb amaniment de soja i xili dolç", "price": "14€" },
+        { "name": "Pasta amb Pesto d'Anacards (Vegetariana)", "description": "Pasta farfalle, pesto casolà d'anacards, tomàquet sec, rúcula, tomàquets cherry, formatge feta i pebrots rostits", "price": "10€" },
+        { "name": "Llenties i Tomàquet (Vegana)", "description": "Enciam mixt, llenties, cogombre, tomàquet, pipes, julivert, pastanaga, olives amb amaniment de llimona", "price": "10€" },
+        { "name": "Pollastre Satay", "description": "Enciam mixt, ceba vermella, tomàquet, cogombre, brots de soja, cacauets i salsa satay", "price": "10€" }
+      ]
+    },
+    "wraps": {
+      "title": "Wraps",
+      "items": [
+        { "name": "Cèsar de Pollastre", "description": "Pollastre rostit, parmesà, amaniment Cèsar, enciam, bacon i ou", "price": "8€" },
+        { "name": "Falafel amb Iogurt d'Herbes (Vegetarià)", "description": "Falafel, iogurt, menta, cogombre, ceba, enciam", "price": "8€" },
+        { "name": "Amanida de Fideus Asiàtica (Vegà)", "description": "Fideus d'arròs, brots de soja, cogombre, tomàquets cherry, pebrots, pastanagues i col, amaniment de soja i xili dolç", "price": "8€" },
+        { "name": "Mongetes i Blat de Moro Mexicà (Vegetarià)", "description": "Mongetes vermelles, blat de moro, arròs integral, feta, tomàquet, pebrot amb maionesa de chipotle", "price": "8€" },
+        { "name": "Pernil Dolç i Amanida Clàssica", "description": "Pernil dolç, cogombre, tomàquet, pastanaga, formatge suís i maionesa", "price": "8€" },
+        { "name": "Pollastre Coronation", "description": "Pollastre rostit amb espècies índies, cogombre, pastanaga i maionesa de xili dolç", "price": "8€" },
+        { "name": "Cigrons i Espinacs (Vegà)", "description": "Cigrons especiats, ceba vermella, tomàquet, cogombre, espinacs", "price": "8€" }
+      ]
+    },
+    "feast": {
+      "title": "El Gran Festí Avalon",
+      "description": "Creem un festí càlid de dinar o sopar per a tu, personalitzat al teu gust.",
+      "items": [
+        { "name": "Curri de Pollastre Thai Vermell" },
+        { "name": "Pollastre Rostit amb Herbes" },
+        { "name": "Pasta Cremosa de Bolets i Bacon" },
+        { "name": "Porc Rostit amb Poma i Mostassa" },
+        { "name": "Fideus Xinesos amb Vedella i Bròquil" },
+        { "name": "Lasanya Clàssica" },
+        { "name": "Tacos de Porc Desfilat" },
+        { "name": "Amanida de Bròquil, Mongetes i Nous" },
+        { "name": "Coleslaw" },
+        { "name": "Arròs Fregit amb Ou" },
+        { "name": "Beef Rendang" },
+        { "name": "Amanida Mediterrània de Patata" }
+      ],
+      "moreOptionsNote": "...i moltes més opcions!",
+      "priceNote": "20€ per persona — inclou proteïnes, pasta o arròs, i amanides, tot lliurat calent."
+    },
+    "delivery": {
+      "note1": "Totes les comandes inclouen una tarifa d'entrega en bici de 15–25€. Comandes superiors a 300€ tenen entrega gratuïta.",
+      "note2": "Els preus estan subjectes a un 10% d'IVA.",
+      "note3": "Tot el menjar es fa fresc el mateix dia, a casa nostra."
     }
   },
   "gallery": {

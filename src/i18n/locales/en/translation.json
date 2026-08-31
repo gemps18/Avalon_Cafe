@@ -16,6 +16,10 @@
     "text": "Avalon Cafe is a cozy, Australian-style brunch spot on the seafront in Badalona. We serve specialty coffee, fresh juices, and all-day brunch in a relaxed, friendly space — perfect for a slow morning or a catch-up with friends."
   },
   "menu": {
+    "tabs": {
+      "cafe": "Cafe Menu",
+      "catering": "Catering Menu"
+    },
     "brunchYourWay": {
       "title": "Brunch Your Way",
       "items": [
@@ -113,6 +117,102 @@
           { "name": "Barbadillo Vermut Atamán - 50cl", "price": "3.5€" }
         ]}
       ]
+    }
+  },
+  "catering": {
+    "intro": "From a light breakfast to a lunch feast, we have you covered — food made fresh daily. With a fresh Australian influence in our kitchen, we focus on fun, healthy, tasty meals.",
+    "each": "each",
+    "breakfastTreats": {
+      "title": "Breakfast Treats",
+      "sections": [
+        {
+          "title": "English Muffins",
+          "price": "6€",
+          "items": [
+            { "name": "Bacon, egg, tomato relish & rocket" },
+            { "name": "Brie, tomato, ham york & Dijon mayonnaise" },
+            { "name": "Chicken, mayonnaise & lettuce" }
+          ]
+        },
+        {
+          "title": "Sweet Treats",
+          "price": "4€",
+          "items": [
+            { "name": "Chocolate chip cookies" },
+            { "name": "Raspberry & mascarpone croissant" },
+            { "name": "Caramel slice" },
+            { "name": "Chocolate brownie" }
+          ]
+        },
+        {
+          "title": "Mini Baguette",
+          "price": "3€",
+          "items": [
+            { "name": "Bacon, lettuce, tomato, mayonnaise" },
+            { "name": "Chicken coronation" },
+            { "name": "Roast vegetable & brie" }
+          ]
+        },
+        {
+          "title": "Mini Bowl",
+          "price": "6€",
+          "items": [
+            { "name": "Coconut milk chia bowl with fresh fruit & nuts" },
+            { "name": "Yogurt & granola" },
+            { "name": "Fresh fruit salad with sweet whipped ricotta" }
+          ]
+        }
+      ]
+    },
+    "salads": {
+      "title": "Salads",
+      "subtitle": "Served individually or as sharing platters for 8 persons",
+      "trayNote": "Salad trays: 26€ (approx. 8 side-salad portions)",
+      "items": [
+        { "name": "Chicken Caesar", "description": "Roast chicken, parmesan, lettuce, bacon, egg & a Caesar dressing", "price": "10€" },
+        { "name": "Mixed Grain & Herb (Vegetarian)", "description": "Wild rice, quinoa, mint & parsley, cucumber, roasted sweet potato & onion with a honey mustard dressing", "price": "10€" },
+        { "name": "Asian Beef Noodle", "description": "Rice noodles, bean sprouts, cucumber, cherry tomatoes, carrots, cabbage & seared skirt steak with a soy sweet chilli dressing", "price": "14€" },
+        { "name": "Cashew Pesto Pasta (Vegetarian)", "description": "Farfalle pasta, homemade cashew pesto, sundried tomato, rocket, cherry tomatoes, feta cheese & roasted peppers", "price": "10€" },
+        { "name": "Lentil & Tomato (Vegan)", "description": "Mixed lettuce, lentils, cucumber, tomato, sunflower seeds, parsley, carrot, olives with a lemon dressing", "price": "10€" },
+        { "name": "Satay Chicken", "description": "Mixed lettuce, red onion, tomato, cucumber, bean sprouts, peanuts & a satay sauce", "price": "10€" }
+      ]
+    },
+    "wraps": {
+      "title": "Wraps",
+      "items": [
+        { "name": "Chicken Caesar", "description": "Roast chicken, parmesan, Caesar dressing, lettuce, bacon & egg", "price": "8€" },
+        { "name": "Falafel Herb Yogurt (Vegetarian)", "description": "Falafel, yogurt, mint, cucumber, onion, lettuce", "price": "8€" },
+        { "name": "Asian Noodle Salad (Vegan)", "description": "Rice noodles, bean sprouts, cucumber, cherry tomatoes, peppers, carrots & cabbage, soy sweet chilli dressing", "price": "8€" },
+        { "name": "Mexican Bean Corn (Vegetarian)", "description": "Red beans, corn, brown rice, feta, tomato, pepper with a chipotle mayonnaise", "price": "8€" },
+        { "name": "Classic Ham & Salad", "description": "Ham york, cucumber, tomato, carrot, Swiss cheese & mayonnaise", "price": "8€" },
+        { "name": "Coronation Chicken", "description": "Roast chicken in Indian spices, cucumber, carrot & a sweet chilli mayonnaise", "price": "8€" },
+        { "name": "Chickpea Spinach (Vegan)", "description": "Spiced chickpeas, red onion, tomato, cucumber, spinach", "price": "8€" }
+      ]
+    },
+    "feast": {
+      "title": "The Big Avalon Feast",
+      "description": "We create a warm lunch or dinner feast for you, custom to your tastes.",
+      "items": [
+        { "name": "Red Thai Chicken Curry" },
+        { "name": "Roasted Herb Chicken" },
+        { "name": "Creamy Mushroom & Bacon Pasta" },
+        { "name": "Roast Pork with Apple & Mustard" },
+        { "name": "Beef & Broccoli Chinese Noodles" },
+        { "name": "Classic Lasagna" },
+        { "name": "Pulled Pork Tacos" },
+        { "name": "Broccoli, Bean & Nut Salad" },
+        { "name": "Coleslaw" },
+        { "name": "Egg Fried Rice" },
+        { "name": "Beef Rendang" },
+        { "name": "Mediterranean Potato Salad" }
+      ],
+      "moreOptionsNote": "...with many, many more options!",
+      "priceNote": "20€ per person — includes proteins, pasta or rice, and salads, all delivered hot."
+    },
+    "delivery": {
+      "note1": "All orders come with a bike delivery fee ranging from 15–25€. Orders over 300€ get free delivery.",
+      "note2": "Prices are subject to 10% IVA (VAT).",
+      "note3": "All food is made fresh on the day, in-house."
     }
   },
   "gallery": {

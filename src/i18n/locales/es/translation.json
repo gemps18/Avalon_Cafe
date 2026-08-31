@@ -16,6 +16,10 @@
     "text": "Avalon Cafe es un acogedor espacio de brunch de estilo australiano frente al mar en Badalona. Servimos café de especialidad, zumos naturales y brunch durante todo el día en un ambiente relajado y cercano — ideal para una mañana tranquila o para quedar con amigos."
   },
   "menu": {
+    "tabs": {
+      "cafe": "Menú del Café",
+      "catering": "Menú de Catering"
+    },
     "brunchYourWay": {
       "title": "Brunch a tu Manera",
       "items": [
@@ -113,6 +117,102 @@
           { "name": "Barbadillo Vermut Atamán - 50cl", "price": "3.5€" }
         ]}
       ]
+    }
+  },
+  "catering": {
+    "intro": "Desde un desayuno ligero hasta un festín de almuerzo, te tenemos cubierto, comida hecha fresca a diario. Con una influencia australiana fresca en nuestra cocina, nos enfocamos en comidas divertidas, saludables y sabrosas.",
+    "each": "cada uno",
+    "breakfastTreats": {
+      "title": "Delicias para Desayunar",
+      "sections": [
+        {
+          "title": "English Muffins",
+          "price": "6€",
+          "items": [
+            { "name": "Bacon, huevo, relish de tomate y rúcula" },
+            { "name": "Brie, tomate, jamón york y mayonesa de Dijon" },
+            { "name": "Pollo, mayonesa y lechuga" }
+          ]
+        },
+        {
+          "title": "Dulces",
+          "price": "4€",
+          "items": [
+            { "name": "Galletas con pepitas de chocolate" },
+            { "name": "Croissant de frambuesa y mascarpone" },
+            { "name": "Barrita de caramelo" },
+            { "name": "Brownie de chocolate" }
+          ]
+        },
+        {
+          "title": "Mini Baguette",
+          "price": "3€",
+          "items": [
+            { "name": "Bacon, lechuga, tomate, mayonesa" },
+            { "name": "Pollo coronation" },
+            { "name": "Verduras asadas y brie" }
+          ]
+        },
+        {
+          "title": "Mini Bowl",
+          "price": "6€",
+          "items": [
+            { "name": "Bowl de chía con leche de coco, fruta fresca y frutos secos" },
+            { "name": "Yogur y granola" },
+            { "name": "Ensalada de fruta fresca con ricotta batida dulce" }
+          ]
+        }
+      ]
+    },
+    "salads": {
+      "title": "Ensaladas",
+      "subtitle": "Servidas individualmente o en bandejas para compartir para 8 personas",
+      "trayNote": "Bandejas de ensalada: 26€ (aprox. 8 porciones tipo guarnición)",
+      "items": [
+        { "name": "César de Pollo", "description": "Pollo asado, parmesano, lechuga, bacon, huevo y aliño César", "price": "10€" },
+        { "name": "Cereales Mixtos y Hierbas (Vegetariana)", "description": "Arroz salvaje, quinoa, menta y perejil, pepino, boniato asado y cebolla con aliño de miel y mostaza", "price": "10€" },
+        { "name": "Fideos Asiáticos con Ternera", "description": "Fideos de arroz, brotes de soja, pepino, tomates cherry, zanahorias, col y solomillo a la plancha con aliño de soja y chile dulce", "price": "14€" },
+        { "name": "Pasta con Pesto de Anacardos (Vegetariana)", "description": "Pasta farfalle, pesto casero de anacardos, tomate seco, rúcula, tomates cherry, queso feta y pimientos asados", "price": "10€" },
+        { "name": "Lentejas y Tomate (Vegana)", "description": "Lechuga mixta, lentejas, pepino, tomate, pipas, perejil, zanahoria, aceitunas con aliño de limón", "price": "10€" },
+        { "name": "Pollo Satay", "description": "Lechuga mixta, cebolla roja, tomate, pepino, brotes de soja, cacahuetes y salsa satay", "price": "10€" }
+      ]
+    },
+    "wraps": {
+      "title": "Wraps",
+      "items": [
+        { "name": "César de Pollo", "description": "Pollo asado, parmesano, aliño César, lechuga, bacon y huevo", "price": "8€" },
+        { "name": "Falafel con Yogur de Hierbas (Vegetariano)", "description": "Falafel, yogur, menta, pepino, cebolla, lechuga", "price": "8€" },
+        { "name": "Ensalada de Fideos Asiática (Vegano)", "description": "Fideos de arroz, brotes de soja, pepino, tomates cherry, pimientos, zanahorias y col, aliño de soja y chile dulce", "price": "8€" },
+        { "name": "Frijoles y Maíz Mexicano (Vegetariano)", "description": "Frijoles rojos, maíz, arroz integral, feta, tomate, pimiento con mayonesa de chipotle", "price": "8€" },
+        { "name": "Jamón York y Ensalada Clásica", "description": "Jamón york, pepino, tomate, zanahoria, queso suizo y mayonesa", "price": "8€" },
+        { "name": "Pollo Coronation", "description": "Pollo asado con especias indias, pepino, zanahoria y mayonesa de chile dulce", "price": "8€" },
+        { "name": "Garbanzos y Espinacas (Vegano)", "description": "Garbanzos especiados, cebolla roja, tomate, pepino, espinacas", "price": "8€" }
+      ]
+    },
+    "feast": {
+      "title": "El Gran Festín Avalon",
+      "description": "Creamos un festín cálido de almuerzo o cena para ti, personalizado a tu gusto.",
+      "items": [
+        { "name": "Curry de Pollo Thai Rojo" },
+        { "name": "Pollo Asado con Hierbas" },
+        { "name": "Pasta Cremosa de Champiñones y Bacon" },
+        { "name": "Cerdo Asado con Manzana y Mostaza" },
+        { "name": "Fideos Chinos con Ternera y Brócoli" },
+        { "name": "Lasaña Clásica" },
+        { "name": "Tacos de Cerdo Desmechado" },
+        { "name": "Ensalada de Brócoli, Alubias y Nueces" },
+        { "name": "Coleslaw" },
+        { "name": "Arroz Frito con Huevo" },
+        { "name": "Beef Rendang" },
+        { "name": "Ensalada Mediterránea de Patata" }
+      ],
+      "moreOptionsNote": "...¡y muchas más opciones!",
+      "priceNote": "20€ por persona — incluye proteínas, pasta o arroz, y ensaladas, todo entregado caliente."
+    },
+    "delivery": {
+      "note1": "Todos los pedidos incluyen una tarifa de entrega en bici de 15–25€. Pedidos superiores a 300€ tienen entrega gratuita.",
+      "note2": "Los precios están sujetos a un 10% de IVA.",
+      "note3": "Toda la comida se hace fresca el mismo día, en nuestras instalaciones."
     }
   },
   "gallery": {
