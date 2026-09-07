@@ -9,6 +9,8 @@ import {
   type SeatingOption,
 } from "../data/reservationData";
 import { getCalendarLocale } from "../utils/dateLocale";
+import outdoorVideo from "../assets/Outdoor_Seating_Vid-1.mp4";
+import VideoHero from "../components/VideoHero";
 
 interface ReservationFormData {
   date: Date | undefined;
@@ -62,8 +64,10 @@ function Reservation() {
 
   if (submitted) {
     return (
-      <div className="bg-cream min-h-screen flex items-center justify-center px-6">
-        <div className="max-w-md text-center">
+      <div className="bg-cream min-h-screen">
+        <VideoHero videoSrc={outdoorVideo} title={t("reservation.title")} subtitle={t("reservation.subtitle")} />
+
+        <div className="max-w-3xl mx-auto px-6 py-16">
           <h1 className="font-display text-3xl text-primary mb-4">
             {t("reservation.confirmationTitle")}
           </h1>
@@ -92,10 +96,9 @@ function Reservation() {
 
   return (
     <div className="bg-cream min-h-screen">
-      <div className="max-w-3xl mx-auto px-6 py-16">
-        <h1 className="font-display text-3xl text-primary mb-2">{t("reservation.title")}</h1>
-        <p className="text-primary/70 mb-10">{t("reservation.subtitle")}</p>
+      <VideoHero videoSrc={outdoorVideo} title={t("reservation.title")} subtitle={t("reservation.subtitle")} />
 
+      <div className="max-w-3xl mx-auto px-6 py-16">
         <form onSubmit={handleSubmit} className="grid md:grid-cols-2 gap-10">
           {/* Calendar */}
           <div>

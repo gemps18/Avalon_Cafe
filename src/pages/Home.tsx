@@ -1,16 +1,28 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import About from "../components/About";
+import AccentBanner from "../components/AccentBanner";
 import Gallery from "../components/Gallery";
+import facadeVideo from "../assets/Facade_Vid-1.mp4";
 
 function Home() {
   const { t } = useTranslation();
 
   return (
     <div>
-      <section className="relative overflow-hidden bg-primary text-cream px-6 py-24 md:py-32">
+      <section className="relative overflow-hidden text-cream px-6 py-24 md:py-32">
+        <video
+          className="absolute inset-0 w-full h-full object-cover"
+          src={facadeVideo}
+          autoPlay
+          muted
+          loop
+          playsInline
+        />
+        <div className="absolute inset-0 bg-primary/70" />
+
         <div
-          className="absolute -top-24 -right-24 w-72 h-72 rounded-full bg-secondary/90"
+          className="absolute -top-24 -right-24 w-72 h-72 rounded-full bg-secondary/70"
           aria-hidden="true"
         />
         <div
@@ -44,6 +56,7 @@ function Home() {
       </section>
 
       <About />
+      <AccentBanner />
       <Gallery />
     </div>
   );

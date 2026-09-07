@@ -15,6 +15,10 @@
     "title": "Sobre Nosotros",
     "text": "Avalon Cafe es un acogedor espacio de brunch de estilo australiano frente al mar en Badalona. Servimos café de especialidad, zumos naturales y brunch durante todo el día en un ambiente relajado y cercano — ideal para una mañana tranquila o para quedar con amigos."
   },
+  "accent": {
+    "eyebrow": "Una Mirada de Cerca",
+    "title": "Cada detalle en Avalon tiene una historia"
+  },
   "menu": {
     "tabs": {
       "cafe": "Menú del Café",

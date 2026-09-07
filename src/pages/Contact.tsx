@@ -4,6 +4,8 @@ import emailjs from "@emailjs/browser";
 import { DayPicker } from "@daypicker/react";
 import "@daypicker/react/style.css";
 import { getCalendarLocale } from "../utils/dateLocale";
+import facadeVideo from "../assets/Facade_Vid-1.mp4";
+import VideoHero from "../components/VideoHero";
 
 type InquiryType = "catering" | "event" | "other";
 
@@ -91,10 +93,9 @@ function Contact() {
 
   return (
     <div className="bg-cream min-h-screen relative">
-      <div className="max-w-2xl mx-auto px-6 py-16">
-        <h1 className="font-display text-3xl text-primary mb-2">{t("contact.title")}</h1>
-        <p className="text-primary/70 mb-8">{t("contact.subtitle")}</p>
+      <VideoHero videoSrc={facadeVideo} title={t("contact.title")} subtitle={t("contact.subtitle")} />
 
+      <div className="max-w-2xl mx-auto px-6 py-16">
         {/* Inquiry type selector */}
         <div className="flex gap-3 mb-10">
           {inquiryTypes.map((type) => (

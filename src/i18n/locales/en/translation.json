@@ -15,6 +15,10 @@
     "title": "About Us",
     "text": "Avalon Cafe is a cozy, Australian-style brunch spot on the seafront in Badalona. We serve specialty coffee, fresh juices, and all-day brunch in a relaxed, friendly space — perfect for a slow morning or a catch-up with friends."
   },
+  "accent": {
+    "eyebrow": "A Closer Look",
+    "title": "Every detail at Avalon has a story"
+  },
   "menu": {
     "tabs": {
       "cafe": "Cafe Menu",
