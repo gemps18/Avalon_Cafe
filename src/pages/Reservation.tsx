@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import emailjs from "@emailjs/browser";
 import { DayPicker } from "@daypicker/react";
 import "@daypicker/react/style.css";
 import {
@@ -40,6 +41,7 @@ function Reservation() {
   const { t, i18n } = useTranslation();
   const [formData, setFormData] = useState<ReservationFormData>(initialFormData);
   const [submitted, setSubmitted] = useState(false);
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
   const calendarLocale = getCalendarLocale(i18n.language);
 
@@ -53,13 +55,39 @@ function Reservation() {
   const isFormValid =
     formData.date && formData.time && formData.name && formData.email && formData.phone;
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!isFormValid) return;
 
-    // TODO: wire this up to a backend or email service (same as Contact page)
-    console.log("Reservation submitted:", formData);
-    setSubmitted(true);
+    setStatus("sending");
+
+    try {
+      await emailjs.send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_RESERVATION_TEMPLATE_ID,
+        {
+          user_name: formData.name,
+          user_email: formData.email,
+          phone: formData.phone,
+          date: formData.date?.toLocaleDateString(i18n.language, {
+            day: "numeric",
+            month: "long",
+            year: "numeric",
+          }),
+          time: formData.time,
+          guests: formData.guests,
+          seating: t(`reservation.${formData.seating}`),
+          notes: formData.notes || "—",
+        },
+        { publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY }
+      );
+
+      setStatus("sent");
+      setSubmitted(true);
+    } catch (error) {
+      console.error("Failed to send reservation:", error);
+      setStatus("error");
+    }
   };
 
   if (submitted) {
@@ -84,6 +112,7 @@ function Reservation() {
             onClick={() => {
               setFormData(initialFormData);
               setSubmitted(false);
+              setStatus("idle");
             }}
             className="mt-6 bg-primary text-cream px-6 py-2 rounded-full hover:opacity-90 transition"
           >
@@ -240,11 +269,15 @@ function Reservation() {
 
             <button
               type="submit"
-              disabled={!isFormValid}
+              disabled={!isFormValid || status === "sending"}
               className="w-full bg-primary text-cream px-6 py-3 rounded-full font-semibold hover:opacity-90 transition disabled:opacity-40 disabled:cursor-not-allowed"
             >
-              {t("reservation.submit")}
+              {status === "sending" ? t("contact.sending") : t("reservation.submit")}
             </button>
+
+            {status === "error" && (
+              <p className="text-red-600 text-sm text-center">{t("contact.error")}</p>
+            )}
           </div>
         </form>
       </div>

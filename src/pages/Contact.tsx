@@ -77,7 +77,11 @@ function Contact() {
           user_name: formData.name,
           user_email: formData.email,
           message: formData.message,
-          date: formData.date ? formData.date.toLocaleDateString(i18n.language) : "",
+          date: formData.date ? formData.date.toLocaleDateString(i18n.language, {
+            day: "numeric",
+            month: "long",
+            year: "numeric",
+          }) : "",
           time: formData.time,
         },
         { publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY }
