@@ -72,7 +72,7 @@ Avalon_Cafe/
 
 1. Clone the repository:
 ```bash
-   git clone https://github.com/<your-username>/Avalon_Cafe.git
+   git clone https://github.com
    cd Avalon_Cafe
 ```
 
